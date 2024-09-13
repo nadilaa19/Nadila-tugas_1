@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Gabungan</title>
+    <style>
+        /* CSS umum */
+        body {
+            background-color: rgb(227, 219, 235); /* Warna latar belakang body */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            text-align: center; /* Rata tengah untuk semua h1 dan h2 */
+        }
+
+        /* CSS untuk Latihan 1 */
+        .latihan1 {
+            background-image: url("lucu.jpg"); /* Path gambar latar belakang */
+            background-size: cover; /* Agar gambar menutupi elemen */
+            background-repeat: no-repeat;
+            background-position: center; /* Posisikan gambar di tengah */
+            text-align: center;
+            font-size: 2.5rem; /* Ukuran font untuk latihan 1 */
+            padding: 50px;
+            margin-bottom: 20px; /* Space between sections */
+            color: rgb(22, 22, 22); /* Warna teks default */
+        }
+
+        /* CSS untuk Latihan 2 */
+        .latihan2 {
+            padding: 50px;
+            color: rgb(122, 48, 79); /* Default text color */
+        }
+
+        .latihan2 h1 {
+            font-size: 3rem; /* Largest size */
+            color: rgb(165, 97, 133);
+            margin: 0 0 20px 0; /* Margin to space out headings */
+        }
+
+        .latihan2 h2 {
+            font-size: 2.5rem; /* Slightly smaller */
+            color: rgb(124, 79, 101);
+            margin: 0 0 15px 0;
+        }
+
+        .latihan2 h3 {
+            font-size: 2rem; /* Smaller */
+            margin: 0;
+            text-align: center; /* Center align h3 */
+        }
+
+        .latihan2 h4 {
+            font-size: 1.5rem; /* Smallest */
+            margin: 0;
+            text-align: center; /* Center align h4 */
+        }
+
+        .latihan2 p {
+            font-size: 1.2rem;
+            margin-top: 20px; /* Space above paragraph */
+        }
+
+        /* CSS untuk tabel */
+        .table-bordered {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 40px 0; /* Jarak atas dan bawah tabel */
+        }
+
+        .table-bordered th, .table-bordered td {
+            border: 1px solid black; /* Garis border */
+            padding: 12px; /* Jarak dalam sel tabel */
+            text-align: left;
+        }
+
+        .table-bordered th {
+            background-color: #f2f2f2; /* Warna latar belakang header tabel */
+        }
+
+        /* CSS untuk form */
+        form {
+            max-width: 600px; /* Lebar maksimum form */
+            margin: 40px auto; /* Jarak atas dan bawah serta memusatkan form */
+            padding: 20px; /* Jarak dalam form */
+            border: 1px solid #ccc; /* Border form */
+            border-radius: 8px; /* Sudut melengkung */
+            background-color: #f9f9f9; /* Warna latar belakang form */
+        }
+
+        form input[type="text"], form input[type="date"], form select {
+            width: calc(100% - 22px); /* Menyesuaikan lebar input dan select */
+            padding: 8px;
+            margin-bottom: 10px; /* Jarak bawah */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form input[type="radio"], form input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #4CAF50; /* Warna latar belakang tombol submit */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #45a049; /* Warna tombol saat hover */
+        }
+
+        /* Garis pemisah umum */
+        hr {
+            border: 1px solid #ccc;
+            margin: 40px 0; /* Jarak atas dan bawah garis pemisah */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bagian Latihan 1 -->
+    <div class="latihan1">
+        <h1>🌷Nadila Hanifah🌷</h1>
+        <h2>Ini adalah latihan 1</h2>
+    </div>
+
+    <!-- Pemisah -->
+    <hr>
+
+    <!-- Bagian Latihan 2 -->
+    <div class="latihan2">
+        <h1>Ini adalah H1</h1>
+        <h2>Ini adalah H2</h2>
+        <h3>Ini adalah H3</h3>
+        <h4>Ini adalah H4</h4>
+    </div>
+
+    <!-- Pemisah -->
+    <hr>
+
+    <!-- Tabel Latihan Membuat Tabel -->
+    <h1>Latihan Membuat Tabel</h1>
+    <table class="table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Kelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nadila Hanifah</td>
+                <td>2306301</td>
+                <td>3A</td>
+                <td><a href="nadila.html">Profil</a></td>
+            </tr>
+            <tr></tr>
+                <td>2</td>
+                <td>Taylor Swift</td>
+                <td>2301234</td>
+                <td>3A</td>
+                <td><a href="Taylor.html">Profil</a></td>
+            </tr>
+            <tr></tr>
+                <td>3</td>
+                <td>Park Jimin</td>
+                <td>2301111</td>
+                <td>3A</td>
+                <td><a href="jimin.html">Profil</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Pemisah -->
+    <hr>
+
+    <!-- Bagian Belajar Membuat Form -->
+    <h1>Belajar Membuat Form</h1>
+    <form action="">
+        Nama: <input type="text" name="nama"><br>
+        NIM: <input type="text" name="nim"><br>
+        Tempat Lahir: <input type="text" name="tlahir"><br>
+        Tanggal Lahir: <input type="date" name="tglahir"><br>
+        Program Studi:
+        <select name="prodi">
+            <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+            <option value="PGPAUD">Pendidikan Guru Pendidikan Anak Usia Dini</option>
+            <option value="PKP">Pendidikan Kelautan Perikanan</option>     
+            <option value="SIK">Sistem Informasi Kelautan</option>
+            <option value="LK">Logistik Kelautan</option>
+        </select><br>
+        Jenis Kelamin:
+        <input type="radio" name="jk" value="laki-laki"> Laki-laki
+        <input type="radio" name="jk" value="perempuan"> Perempuan <br>
+        Hobi:
+        <input type="checkbox" name="hobi" value="baca"> Baca
+        <input type="checkbox" name="hobi" value="nulis"> Nulis
+        <input type="checkbox" name="hobi" value="traveling"> Traveling
+        <input type="checkbox" name="hobi" value="mancing"> Mancing
+        <input type="checkbox" name="hobi" value="tidur"> Tidur <br>
+        <hr>
+        <input type="submit" value="Simpan">
+    </form>
+
+</body>
+</html>
